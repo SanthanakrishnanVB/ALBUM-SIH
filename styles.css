@@ -38,7 +38,8 @@ div.box {
     width:200px;
     float:left;
     margin-right:30px; 
-    text-align: justify;  
+    text-align: justify; 
+    padding:10px;
 }
 .ri{
     float:right;
