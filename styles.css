@@ -1,0 +1,66 @@
+
+h1{
+    font-family: 'Lavishly Yours', cursive;
+    font-size:45px;
+    text-align: center;
+}
+#sub{
+    font-size:30px;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Tangerine', cursive;
+}
+h3{
+    font-family: 'Birthstone', cursive;
+    
+}
+html{
+    background-image: linear-gradient(to bottom right,white,grey);
+}
+div.box {
+    display: inline-block;
+    width: 50%;
+    margin-bottom:50px;
+  }
+
+  p {
+    font-size: 15px;
+    font-family: 'Eagle Lake', cursive;
+    }
+.photo{
+    font-size: 50px;
+    text-align: center;
+}
+
+.box > img{
+    height:200px;
+    width:200px;
+    float:left;
+    margin-right:30px; 
+    text-align: justify;  
+}
+.ri{
+    float:right;
+    width:45%;
+    text-align: justify;
+   
+}
+.li{
+    float:left;
+    width:45%;
+    text-align: justify;
+
+}
+.container  img{
+    height:400px;
+    width:400px;
+}
+.container{
+    margin-top:90px;
+    display:grid;
+    grid-template-columns: repeat(3,20px);
+    grid-template-rows: repeat(4,20px);
+    gap:500px;
+
+}
